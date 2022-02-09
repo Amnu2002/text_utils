@@ -1,0 +1,151 @@
+#darkbtn{
+  background-color: darkslategrey;
+  color: white;
+  height: 30px;
+  position: absolute;
+  margin-left: 35cm;
+  margin-top: 4px;
+}
+.nav-light{
+  background-color: darkslategrey;
+  display: flex;
+  align-items: center;
+  height: 6vh;
+  margin-bottom: 2vh;
+}
+.nav-light li a,.nav-dark li a{
+  color: white;
+  text-decoration: none;
+}
+.nav-light li,.nav-dark li{
+  list-style: none;
+  margin-left: 1vw;
+  color: white;
+}
+.nav-dark{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  height: 6vh;
+  margin-bottom: 2vh;
+  border: 2px solid white;
+}
+.container-light{
+  margin-left: 20vw;
+}
+.container-dark{
+  color: white;
+  margin-left: 20vw;
+  background-color: black;
+}
+.text-area-light{
+  display: block;
+}
+.text-area-dark{
+  display: block;
+  background-color: black;
+  color: white;
+}
+
+.upper-light{
+  background-color: blue;
+  color: white;
+  margin-right: 0.5vw;
+}
+.upper-dark{
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  margin-right: 0.5vw;
+}
+.pre-light{
+  height: 200px;
+  border: 2px solid black;
+  width: 49vw;
+  overflow: scroll;
+  
+}
+.pre-dark{
+  height: 200px;
+  border: 2px solid white;
+  width: 49vw;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  
+}
+
+
+/*   alert css */
+
+.Alert{
+  background-color: green;
+  width: 100%;
+  height: 30px;
+  margin-top: -12px;
+  display: flex;
+  padding-left: 60px;
+  color: white;
+}
+.Alert strong{
+  margin-right: 2cm;
+}
+
+#closeAlert{
+  background-color: green;
+  border: none;
+  margin-left: 30cm;
+  color: white;
+  position: absolute;
+}
+/*about  css*/
+
+.abtmain{
+
+  margin: 100px 400px;
+}
+
+.abt1-light,.abt2-light,.abt3-light{
+  
+  display: flex;
+  border-radius: 40px;
+  background-color: slategray;
+}
+.abt1-light h2,.abt2-light h2,.abt3-light h2{
+  margin-left: 10px;
+}
+
+.abt1-light{
+  border: 2px solid black;
+}
+.abt2-light{
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.abt3-light{
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.abtbtn2-light,.abtbtn3-light{
+  margin-left: 80%;
+  border: none;
+  background-color: slategray;
+}
+.abtbtn1-light{
+  border: none;
+  background-color: slategray;
+  margin-left: 80.7%;
+}
+
+.cntn1-light,.cntn2-light,.cntn3-light{
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  display: none;
+  border-radius: 40px;
+  padding-left: 9px;
+  padding-top: 5px;
+}
